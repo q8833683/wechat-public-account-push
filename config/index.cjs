@@ -19,21 +19,21 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '周大宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oyGy76EcWCTNW1j_xm1yM4NswELQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'd5zeiWnev3srv29o8pPaGB5u5OiSJ3ZfJLOc1qgVvjo',
+      useTemplateId: '	jrPD18kMphkJNsKH-bkykekQb18b0SUJx5nY2qjbTgA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1993', date: '03-13',
+          type: '*生日', name: '周同学', year: '1993', date: '03-13',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '周同学', year: '1993', date: '02-21',
+          type: '生日', name: '张同学', year: '1993', date: '02-21',
         },
         {
           type: '节日', name: '相识纪念日', year: '2009', date: '09-10',
